@@ -6,70 +6,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Movies Website</title>
+
+    <style>body {
+      background-image: url(./film.png);
+      background-color: blue;
+      background-size: 50px;
+      border-image-repeat: none;
+      /* المطلوب الاول هنا  */
+      /* اعط لون للخلفية */
+      /*   : (الصورة) عدل على الخلفيه     */
+      /* 1.  50px عدل على حجم الصورة */
+      /* 2. اجعل الصورة تظهر مرة واحد   */
+      /* hint : repeat proparty */
+      /* اكتب  الكود هنا 👇🏽 */
+    
+      /* المطلوب الخامس هنا  */
+      /* يظهر بمتنصف الصفحة  movie cards  اجعل ال   */
+      /* hint:    flex طول قبل استخدام خواص ال body اعط ل  */
+      /* اكتب  الكود هنا 👇🏽 */
+    }
+    
+    h1{
+      text-align: center;
+      font-style:italic;
+      font-weight: bold;
+      text-shadow: 2px 2px 10px black;
+      padding-top: 20px;
+      padding-bottom: 30px;
+    }
+    
+    a{
+    
+      text-align: center;
+      font-weight: bold;
+      text-shadow: 2px 2px 10px white;
+    }
+    
+    .myimage {
+      border-radius: 8px;
+      height: 270px;
+      width: 180px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      padding-bottom: 25px;
+    }
+    
+    .button {
+      background-color: blue;
+      height: 30px;
+      width: 100px;
+      border: none;
+      display: block;
+      border-radius: 8px;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+    
+    .container {
+      background-color: aquamarine;
+      border-radius: 8px;
+      height: 500px;
+      width: 300px;
+    }
+    </style>
   </head>
+  
   <body>
-    <!--------- 👇🏽 المطلوب الاول  ---------->
-    <!-- لحل المطلوب الاول css اذهب الى صفحة ال -->
-    <!-- اكتب  الكود هنا 👇🏽 -->
+
 
     <div class="container">
-      <!--------- 👇🏽 المطلوب الثاني  ---------->
-      <!-- اضف عنوان يحتوي على اسم فلمك المفضل  -->
-      <!-- (using element selector) text shadow قم بجعل الخط مائل واضف  -->
-      <!-- اكتب  الكود هنا 👇🏽 -->
+      <h1>Cruella</h1>
+      <img class = "myimage" src="cruella.jpg" alt="cruella" /> 
 
-      <!-- 👇🏽 اضف صورة لفلمك المفضل -->
-      <!--  "myimage"  اضف لها كلاس  -->
-      <!-- : css الخاص بالصورة لتعديل ما هو مطلوب في ملف ال class = "myimage" اذهب الى  -->
-      <!--  on hover add a box shaddow -->
-      <!-- اكتب  الكود هنا 👇🏽 -->
 
-      <!---------  👇🏽 المطلوب الثالث  ---------->
-      <!--   اضف زر ينقلك الى اعلان فلمك المفضل في موقع يوتيوب في صفحة منفصلة  -->
-      <!-- hint : target attribute -->
-      <!--  :  css المخصص له في ملف ال class  عدل على ابعاد الزر في ال  -->
-      <!-- اكتب  الكود هنا 👇🏽 -->
+      <button class="button">
+        <a href="https://www.youtube.com/watch?v=gmRKv7n2If8" target="_blank">Trailer</a>
+      </button>
 
-      <button class="button"></button>
 
-      <!--------- 👇🏽 المطلوب الرابع  ---------->
-      <!-- class= "container" لتعديل على  css اذهب الى صفحة ال  -->
-
-      <!-------------------  👇🏽 المطلوب الخامس------------------->
-      <!--  body الي  عنصر ال  style.css اذهب الى صفحة ال  -->
     </div>
 
     <div class="container">
-      <!--------- اضف معلومات الفلم الثاني---------->
-      <!-- اضف عنوان يحتوي على اسم فلمك المفضل  -->
-      <!-- اكتب  الكود هنا 👇🏽 -->
+      <h1>Florida Project</h1>
+      <img class = "myimage" src="florida-project.jpg" alt="florida project" /> 
 
-      <!-- 👇🏽 اضف صورة لفلمك المفضل -->
-      <!--  "myimage"  اضف لها كلاس  -->
-
-      <!-- اكتب  الكود هنا 👇🏽 -->
-
-      <!---------  👇🏽 المطلوب الثالث  ---------->
-      <!--   اضف زر ينقلك الى اعلان فلمك المفضل في موقع يوتيوب في صفحة منفصلة  -->
-      <!-- اكتب  الكود هنا 👇🏽 -->
-
-      <button class="button"></button>
+      <button class="button">
+        <a href="https://www.youtube.com/watch?v=NVtJw389BXM" target="_blank">Trailer</a>
+      </button>
     </div>
 
     <div class="container">
-      <!--------- اضف معلومات الفلم الثالث---------->
-      <!-- اضف عنوان يحتوي على اسم فلمك المفضل  -->
-      <!-- اكتب  الكود هنا 👇🏽 -->
+      <h1>Knives Out</h1>
+      <img class = "myimage" src="knives-out.jpg" alt="knives out" /> 
 
-      <!-- 👇🏽 اضف صورة لفلمك المفضل -->
-      <!--  "myimage"  اضف لها كلاس  -->
-      <!-- اكتب  الكود هنا 👇🏽 -->
 
-      <!---------  👇🏽 المطلوب الثالث  ---------->
-      <!--   اضف زر ينقلك الى اعلان فلمك المفضل في موقع يوتيوب في صفحة منفصلة  -->
-      <!-- اكتب  الكود هنا 👇🏽 -->
-
-      <button class="button"></button>
+      <button class="button">        
+        <a href="https://www.youtube.com/watch?v=xi-1NchUqMA" target="_blank">Trailer</a>
+      </button>
     </div>
   </body>
 </html>
